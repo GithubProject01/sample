@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEB222 Store</title>
+    <!--css code in css file-->
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link
+            href="https://fonts.googleapis.com/css?family=Merienda&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            href="https://fonts.googleapis.com/css?family=Caveat&display=swap"
+            rel="stylesheet"
+        />
+  </head>
+  <body>
+    <header>
+      <div class="back1">
+        <ul id="Main_Page">
+          <li class="StoreName">
+            <img src="images/Zara_logo.jpg" width="150" height="80" alt="logo" />
+            <p>Zara (Finding fashion in You)</p>
+          </li>
+        </ul>
+        <!--a link to your contact.html page.-->
+        <ul id="Contact_Page">
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+    </header>
+    <section>
+      <div class="back2">
+        <div class="header">
+          <img src="images/Header.jpg" width="400" height="300" alt="header" />
+        </div>
+      </div>
+      <div class="back3">
+        <div class="main-div">
+          <nav class="main-nav">
+            <ul class="main-nav-ul">
+              <li>
+                <div><a href="index.html">All Categories</a></div>
+              </li>
+              <li>
+                <div id="Men"><a href="#"> Men</a></div>
+              </li>
+              <li>
+                <div id="Women"><a href="#">Women</a></div>
+              </li>
+              <li>
+                <div id="Children"><a href="#">Children</a></div>
+              </li>
+
+              <li>
+                <div id="aboutUs"><a href="#"> About Us</a></div>
+              </li>
+
+              <li>
+                <div><a href="contact.html"> Contact Us</a></div>
+              </li>
+              <li>
+                <!-- Use https://formspree.io/ to automatically submit the form to
+      your email address-->
+                <form id="form1" name="form1" method="POST" action="https://httpbin.org/post">
+                  <label for="email" class="subscribe"> Subscribe </label
+                  ><input
+                    type="email"
+                    required
+                    id="email"
+                    name="email"
+                    pattern="^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$"
+                  />
+                  <input type="submit" value="OK" />
+                </form>
+              </li>
+            </ul>
+          </nav>
+
+          <div class="box-area" id="div-items">
+           <span class="header-text"><strong>Men Category</strong></span>
+            <table class="single-box" id="Men">
+            <thead>
+               <tr> <td><img src="images/Men_jeans.jpg" width="190" height="220" alt="NotFound" /></td></tr>    
+                 <tr> <td><img src="images/Men_Blazer.jpg" width="190" height="220" alt="NotFound" /></td></tr>
+                 <tr>
+                <td><img src="images/Men_Jackets.jpg" width="190" height="220" alt="NotFound" /></td>
+              </tr>
+          </thead>
+         
+        </table>
+        <table>
+          <thead>
+            <div class="single-box" id="Women">
+              <div class="img-area">
+                <tr><td><img src="images/Wome_jeans.jpg" width="190" height="220" alt="NotFound" /></td></tr>
+              <tr><td> <img src="images/Women_Blazer.jpg" width="190" height="220" alt="NotFound" /></td></tr>
+            </tr><td><img src="images/Women_Dress.jpg" width="190" height="220" alt="NotFound" /></td></tr>
+        <tr><td><img src="images/Women_Jackets.jpg" width="190" height="220" alt="NotFound" /></td></tr>
+              </div>
+              <span class="header-text"><strong>Women Category</strong></span>
+            </div>
+            </thead>
+            </table>
+            <table>
+              <thead>
+            <div class="single-box" id="Children">
+              <div class="img-area">
+              <tr><td><img src="images/Blazer_boys.jpg" width="190" height="220" alt="NotFound" /></td></tr>
+              <tr>   <td><img src="images/Blazer_girls.jpg" width="190" height="220" alt="NotFound" /></td></tr>
+              <tr>     <td><img src="images/Jackets_girls.jpg"  width="190"  height="220" alt="NotFound"/></td></tr>
+              <tr>       <td><img src="images/Jeans_boys.jpg" width="190" height="220" alt="NotFound" /></td></tr>
+            <tr>     <td><img src="images/jeans_girls.jpg" width="190" height="220" alt="NotFound" /></td></tr>
+              </div>
+              <span class="header-text"><strong>Kids Category</strong></span>
+            </div>
+          </thead>
+          </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="box-area hidden" id="dynamicDiv"></div>
+    </section>
+    <footer>
+      &COPY;2020 by Kirti Markan
+    </footer>
+    <script src="js/script.js"></script>
+  </body>
+</html>

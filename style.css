@@ -1,0 +1,16 @@
+    .back1 {
+      background-color: #a4c5c6;
+      background-size: cover;
+    }
+    .back2 {
+      background-color: #d4ebd0;
+      background-size: cover;
+    }
+    .back3 {
+      background-color: #856c8b;
+      background-size: cover;
+    }
+    th{
+      font-size : 20pt;
+    }
+ /** Add any CSS you need to this file. */
